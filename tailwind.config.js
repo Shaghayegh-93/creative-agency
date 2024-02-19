@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        "blog-grid": "repeat(auto-fill, minmax(270px, 1fr))",
+      },
       colors: {
         backgroundColor: "#0e0c23",
         textColor: "#ffffff",
