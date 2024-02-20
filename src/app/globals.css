@@ -33,7 +33,7 @@ body {
 
 @layer base {
   body {
-    @apply bg-backgroundColor text-textColor max-w-[1400px]  w-screen px-14 mx-auto;
+    @apply bg-backgroundColor text-textColor max-w-[1400px]  w-screen px-5 md:px-14  mx-auto;
   }
 
   .activeLink {
