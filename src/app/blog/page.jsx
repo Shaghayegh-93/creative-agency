@@ -1,8 +1,7 @@
 import React from "react";
 import BlogCard from "@/components/BlogCard";
 import {getPostsData} from "../../../server/utils/fetchData";
-// import { connectTodb } from "../../../server/utils/dbConnect";
-// import { Post } from "../../../server/models/models";
+
 
 const BlogPage = async () => {
   const posts = await getPostsData();
